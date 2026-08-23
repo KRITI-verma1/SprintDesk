@@ -17,7 +17,7 @@ interface NotificationStore {
   addNotifications: (newItems: NotificationItem[]) => { addedCount: number; newItems: NotificationItem[] };
 }
 
-const STORAGE_KEY_NOTIFS = 'sprintdesk_notifications_v1';
+const STORAGE_KEY_NOTIFS = 'sprintdesk_notifications_v2';
 
 const getStoredNotifications = (): NotificationItem[] | null => {
   try {
