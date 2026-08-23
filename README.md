@@ -138,6 +138,34 @@ npm run build
 ```
 
  Demo Credentials
-- Username: `emilys`
-- Password: `emilyspass`
+- Username: emilys
+- Password: emilyspass
+
+
+Assumptions
+
+-The application is assumed to be used online through a modern web browser.
+-Task names, descriptions, priorities, deadlines, status, and other project information are assumed to be entered correctly.
+-Users are expected to understand concepts such as tasks, priorities, status, assignees, and sprints.
+-Dashboard metrics and progress indicators are assumed to be meaningful only when users keep task information updated.
+-The application assumes that work can be organized into projects, tasks, priorities, and sprint-like workflows.
+-Any progress or status shown on the dashboard is assumed to reflect the latest available information.
+-Dashboard usefulness depends heavily on data freshness. 
+-It is assumed that users accessing project information are authorized to view and modify that information.
+
+Limitations
+
+-If the application does not implement WebSockets or similar technology, changes made by another user may not appear instantly without refreshing.
+-The application may have basic authentication but may not provide enterprise-level role-based access control, SSO, or advanced permission management.
+-Incorrect or outdated task information can make dashboard statistics and progress indicators inaccurate.
+-Features such as resource allocation, budget tracking, dependency management, advanced reporting, and portfolio management may not be available.
+-The application may not provide comprehensive email, push, or real-time notifications for task assignments, approaching deadlines, or status changes.
+-The application may be designed primarily as a prototype or small-team solution and may require optimization before handling a very large number of users, projects, or tasks.
+-A high task-completion percentage does not necessarily mean a project is on track; task complexity, blockers, dependencies, and resource availability also matter. 
+-Integration with tools such as Slack, Jira, GitHub, Google Calendar, or Microsoft Teams may not be available.
+-The application depends on internet connectivity and may not support creating or editing tasks while offline.
+-A production-ready version would need additional measures such as comprehensive input validation, rate limiting, audit logging, secure session management, and regular security testing.
+
+
+
 
